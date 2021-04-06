@@ -1,0 +1,352 @@
+
+
+
+
+
+
+#all
+{
+  margin:0px;
+  padding:0px;
+  position:absolute;
+  top:0px;
+  left:0px;
+ width:100%;
+ 
+ height:2000px;
+  background-image: url(../resimler/taskopru.jpg);
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-attachment: fixed;
+  
+  opacity:0.95;
+  z-index:-100;
+}
+
+
+#ustcontainer
+{
+	margin:auto;
+	margin-top:50px;
+	width:900px;
+	height:auto;
+	position:sticky;
+	
+	background-color:rgb(120, 180,100);
+	border-radius:15px; 
+    overflow:visiable;
+	box-shadow:12px 12px 12px grey;
+	
+}
+
+.logo
+{
+float:left;
+background-image:url("../resimler/logoson.png");
+background-color:white;
+
+width:80px;
+height:80px;
+background-size:cover;
+border-radius:15%;
+position:relative;
+top:0px;
+padding:0px;
+margin:0px;
+}
+
+.ustyazı
+{
+	float:left;
+	width:400px;
+	text-align:center;
+	color:rgb(256, 256, 256);
+	margin-top:25px;
+	letter-spacing:3px; 
+	font-size:30px;
+	font-family:Arial;
+	text-shadow:6px 6px 10px black;
+	
+}
+
+#altmenu
+{
+	margin:auto;
+	margin-top:50px;
+	width:900px;
+	position:sticky;
+	
+		
+}
+
+#ustmenu
+{
+	width:685px;
+	
+	height:40px;
+	margin-right:10px;
+	float:left;
+	background-color:rgb(120, 180,100);
+	border-radius:15px; 
+
+}
+
+#ustmenu ul 
+{
+	list-style-type:none;
+	padding:0px;
+	margin:0px;
+	z-index:100;
+
+}
+
+#ustmenu ul li
+{
+	float:left;
+	position:relative;	
+	
+}
+
+#ustmenu ul li a 
+{
+	text-align:center;
+	color:white;
+	display:block;
+	width:171.25px;
+	height: 30px;
+	background-color:rgb(120, 180,100);
+	padding-top:10px;
+	text-decoration:none;
+	transition: display 0.6s,background-color 0.6s;
+	
+}
+
+#ustmenu ul li a:hover
+{
+	background-color:white;
+	
+	color:rgb(120, 180,100);
+	
+	
+}
+#ustmenu ul li a:hover#bas
+{
+	border-radius:15px 0 0 15px;
+	
+	
+}
+#ustmenu ul li a:hover#son
+{
+	border-radius:0 15px 15px 0;
+	
+	
+}
+
+
+
+
+
+
+#sosyal
+{
+	width:185px;
+	padding:10px;
+	height:20px;
+	float:left;
+}
+
+#sosyal img
+{
+	width:50px;
+	height:35px;
+	margin-left:9px;
+	margin-top:-7px;
+}
+
+#orta
+{
+	width:900px;
+	height:auto;
+	margin:auto;
+	margin-top:20px;
+	
+}
+
+#dikeymenu
+{
+	float:left;
+	height:140px;
+	width:120px;
+	border-radius:10px;
+	background-color:rgb(210, 210,210);
+	
+
+}
+
+#dikeymenu ul
+{
+	margin:0px;
+	padding:0px;
+	list-style:none;
+	
+}
+
+#dikeymenu ul li a
+{
+	
+	color:green;
+	display:block;
+	width:120px;
+	height:30px;
+	text-align:center;
+	text-decoration:none;
+	font:bold 14px tahoma;
+	padding-top:6px;
+	background-color:rgb(210, 210,210);
+	transition: display 0.6s,background-color 0.6s;
+}
+#dikeymenu ul li a:hover
+{
+	background-color:grey;
+	color:rgb(210, 210,210);
+	
+	
+	
+}
+
+#dikeymenu ul li a:hover#bas
+{
+	border-radius:10px 10px 0 0;
+	
+	
+}
+#dikeymenu ul li a:hover#son
+{
+	border-radius:0 0 10px 10px ;
+	
+	
+}
+
+#ortaalan
+{
+	float:left;
+	z-index:-100;
+	width:670px;
+	height:800px;
+	text-align:center;
+	background-color:rgb(210, 210,210);
+	overflow:auto;
+	border-radius:10px;
+	margin-left:130px;
+	margin-top:-143px;
+
+}
+#ortaalan ul li p
+{
+    color:black;
+display:block;  
+width:600px;
+height:30px;
+text-align:center; 
+text-decoration:none; 
+font: bold 15 px tahoma;
+margin-left:30px;
+padding-top:7px;
+
+}
+#sagorta
+{
+	float:left;
+	margin-left:810px;
+	height:180px;
+	background-color:rgb(50,95,150);
+	width:90px;
+	border-radius:10px;
+	margin-top:-801px;
+	text-align:center;
+	
+}
+
+#footer
+{
+	width:900px;
+	border-radius: 10px;
+	height:100px;
+	background-color:rgb(120, 180,100);
+	margin:auto;
+	margin-top:680px;
+	text-align:center;
+	
+	
+}
+/*7. video*/
+
+#dikeymenu ul li ul
+{
+	display:none;
+	position:absolute;
+	left:120px;
+	top:0px;
+}
+#dikeymenu ul li:hover ul
+{
+	display:block;
+	z-index:100;
+}
+
+#dikeymenu ul li 
+{
+	position:relative;
+	
+}
+
+#dikeymenu ul li a#bas
+{
+	border-radius:10px 10px 0 0 ;
+	
+}
+#dikeymenu ul li a#son
+{
+	border-radius:0 0 10px 10px ;
+	
+}
+
+
+/*8.video */
+
+#ustmenu ul li ul
+{
+	display:none;
+	position:absolute;
+	top:40px;
+	left:0px;
+	
+}
+
+#ustmenu ul li:hover ul
+{
+	display:block;
+	
+	
+}
+#ustmenu ul li a#bas
+{
+	border-radius:15px 0 0 15px;
+		
+}
+
+#ustmenu ul li a#son
+{
+		border-radius:0 15px 15px 0;
+	
+}
+
+
+
+
+
+
+
+
+
+
